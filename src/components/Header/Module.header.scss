@@ -13,9 +13,6 @@
 
 	color: var(--text-color);
 	text-align: center;
-    @media (max-width: 500px) {
-        min-height: 500px;
-    }
     &__wrapper {
         padding: 0 15px;
         max-width: 660px;
