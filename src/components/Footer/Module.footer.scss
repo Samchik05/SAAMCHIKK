@@ -1,0 +1,40 @@
+.footer {
+	margin-top: auto;
+	padding: 60px 0 50px;
+	background-color: black;
+	color: white;
+    @media (max-width: 500px) {
+        padding: 40px 0 20px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+    }
+}
+
+.social {
+	display: flex;
+	column-gap: 30px;
+	align-items: center;
+    &__item:hover {
+        opacity: 0.8;;
+    }
+}
+@media (max-width: 500px) {
+    .social__item {
+        width: 30px;
+    }
+}
+
+.copyright {
+	font-size: 16px;
+    font-family: 'Poppins';
+    @media (max-width: 500px) {
+        font-size: 14px;
+    }
+    & p + p {
+        margin-top: 0.5em;
+    }
+}
