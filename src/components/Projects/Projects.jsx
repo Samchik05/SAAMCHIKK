@@ -37,7 +37,7 @@ const Projects = () => {
           </a>
 				</ul>
 				<ul className="projects">
-					<a href="https://github.com/Samchik05/GoTrip">
+					<a href="https://samchik05.github.io/nike/">
             <li className="project">
               <img src={Nike} alt="Nike" className="project__img" />
               <h3 className="project__title">Nike</h3>
