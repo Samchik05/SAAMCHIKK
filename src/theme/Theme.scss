@@ -10,7 +10,8 @@
 	padding: 5px;
 
 	border-radius: 50px;
-	background-color: #272727;
+	background-color: rgb(117, 117, 117);
+	
 }
 
 .dark-mode-btn::before {
@@ -25,16 +26,18 @@
 	height: 24px;
 
 	border-radius: 50%;
-	background-color: #fff;
+	background-color: rgb(205, 199, 199);
 
 	transition: left 0.2s ease-in;
 }
 
 .dark-mode-btn--active::before {
 	left: 26px;
+	
 }
 
 .dark-mode-btn__icon {
 	position: relative;
 	z-index: 9;
+	
 }

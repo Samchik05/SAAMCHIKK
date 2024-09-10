@@ -6,7 +6,7 @@
 	letter-spacing: normal;
     position: sticky;
     z-index: 3;
-    background: black;
+    background: var(--page);
     top: 0;
 
     &__row {
@@ -28,7 +28,7 @@
         font-family: 'Poppins';
 
         &-link {
-            color: white;
+            color: var(--text-color);
             transform: .3s;
             &:hover {
                 color: #5c62ec;
@@ -41,7 +41,7 @@
 
 .logo {
 	margin-right: auto;
-	color: white;
+	color: var(--text-color);
 	font-size: 24px;
 	font-family: 'Poppins';
     cursor: pointer;
