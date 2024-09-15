@@ -1,4 +1,4 @@
-.title-2 {
+.title_2 {
 	margin-bottom: 20px;
 	font-size: 40px;
 	font-weight: 700;
@@ -7,7 +7,7 @@
         font-size: 28px;
     }
 }
-.content-list {
+.content__list {
 	margin: 0 auto;
 	max-width: 570px;
 	display: flex;
@@ -19,7 +19,7 @@
         color: #5c62ec;
         
     }
-    &__item {
+    &_item {
         font-size: 18px;
         line-height: 1.5;
         color: var(--text-color);

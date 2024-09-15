@@ -54,26 +54,6 @@ img, svg {
         font-size: 40px;
     }
 }
-@media (max-width: 1320px) {
-        .nav,
-        .experience-item {
-          padding-left: 50px;
-          padding-right: 50px;
-        }
-      }
-      @media (max-width: 900px) {
-        .nav,
-        .experience-item {
-          padding-left: 30px;
-          padding-right: 30px;
-        }
-      }
-      @media (max-width: 500px) {
-        .nav {
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-    }
     
 :root {
     --blackpure: #000;

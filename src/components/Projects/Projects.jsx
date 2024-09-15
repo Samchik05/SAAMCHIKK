@@ -1,4 +1,4 @@
-import "./Module.projects.scss"
+import s from "./Project.module.scss"
 import gotrip from "../../../src/theme/images/gotrip.png";
 import cinema from "../../../src/theme/images/cinema.png";
 import nike from "../../../src/theme/images/nike.png";
@@ -12,53 +12,53 @@ const Projects = () => {
     <main className="section" id='projects'>
 			<div className="container">
 				<h2 className="title-1">Projects</h2>
-        <div className="projects">
-        <ul className="projects">
+        <div className={s.projects}>
+        <ul className={s.projects}>
 					<a href="https://samchik05.github.io/GoTrip/">
-            <li className="project">
-              <img src={gotrip} alt="GoTrip" className="project__img" />
-              <h3 className="project__title">GoTrip</h3>
+            <li className={s.project}>
+              <img src={gotrip} alt="GoTrip" className={s.project__img} />
+              <h3 className={s.project__title}>GoTrip</h3>
             </li>
           </a>
 				</ul>
-				<ul className="projects">
+				<ul className={s.projects}>
 					<a href="https://samchik05.github.io/Grayson/">
-            <li className="project">
-              <img src={grayson} alt="Grayson" className="project__img" />
-              <h3 className="project__title">Grayson
+            <li className={s.project}>
+              <img src={grayson} alt="Grayson" className={s.project__img} />
+              <h3 className={s.project__title}>Grayson
               </h3>
             </li>
           </a>
 				</ul>
-				<ul className="projects">
+				<ul className={s.projects}>
 					<a href="https://samchik05.github.io/cinema/">
-            <li className="project">
-              <img src={cinema} alt="Chinema" className="project__img" />
-              <h3 className="project__title">Cinema</h3>
+            <li className={s.project}>
+              <img src={cinema} alt="Chinema" className={s.project__img} />
+              <h3 className={s.project__title}>Cinema</h3>
             </li>
           </a>
 				</ul>
-				<ul className="projects">
+				<ul className={s.projects}>
 					<a href="https://samchik05.github.io/nike/">
-            <li className="project">
-              <img src={nike} alt="Nike" className="project__img" />
-              <h3 className="project__title">Nike</h3>
+            <li className={s.project}>
+              <img src={nike} alt="Nike" className={s.project__img} />
+              <h3 className={s.project__title}>Nike</h3>
             </li>
           </a>
 				</ul>
-				<ul className="projects">
+				<ul className={s.projects}>
 					<a href="https://samchik05.github.io/Oku/">
-            <li className="project">
-              <img src={oku} alt="Oku" className="project__img" />
-              <h3 className="project__title">Oku</h3>
+            <li className={s.project}>
+              <img src={oku} alt="Oku" className={s.project__img} />
+              <h3 className={s.project__title}>Oku</h3>
             </li>
           </a>
 				</ul>
-				<ul className="projects">
+				<ul className={s.projects}>
 					<a href="https://samchik05.github.io/TOTEMBO/">
-            <li className="project">
-              <img src={totembo} alt="Totembo" className="project__img" />
-              <h3 className="project__title">Totembo</h3>
+            <li className={s.project}>
+              <img src={totembo} alt="Totembo" className={s.project__img} />
+              <h3 className={s.project__title}>Totembo</h3>
             </li>
           </a>
 				</ul>

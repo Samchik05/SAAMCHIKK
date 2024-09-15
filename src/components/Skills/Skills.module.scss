@@ -19,15 +19,15 @@
         font-size: 22px;
     }
 }
-.section__title.center {
+.section__title {
     text-align: center;
 }
-.experience-section {
+.experience__section {
     padding: 65px 0 100px;
     background-color: black;
     position: relative;
 }
-.experience-section .experience-items {
+.experience__section .experience__item {
     margin-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -38,8 +38,20 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     gap: 20px;
+    @media ( max-width: 1320px ) {
+        .experience__item {
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+    }
+    @media (max-width: 900px) {
+        .experience__item {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
 }
-.experience-info {
+.experience__info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -59,7 +71,7 @@
         
     }
 }
-.progress-line {
+.progress__line {
     margin-top: 7px;
     height: 10px;
     width: 100%;

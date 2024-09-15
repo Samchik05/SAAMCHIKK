@@ -1,19 +1,19 @@
-import "./Module.header.scss"
+import s from "./Header.module.scss"
 
 const Header = () => {
 	
   return (
     <>
-    <header className="header" id="header">
-			<div className="header__wrapper">
-				<h1 className="header__title">
+    <header className={s.header} id="header">
+			<div className={s.header__wrapper}>
+				<h1 className={s.header__title}>
 					<strong>
 						Hi, my name is <em>Selvin</em>
 					</strong>
 					<br />a frontend developer
 				</h1>
 
-				<div className="arrow-7">
+				<div className={s.arrow_7}>
 					<a href="#aboutme">
 						<span></span>
 						<span></span>
